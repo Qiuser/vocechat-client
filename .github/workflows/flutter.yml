@@ -19,11 +19,11 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v4
         
-      - name: Set up Java 1.8
+      - name: Set up Java 17t
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
-          java-version: '8'
+          java-version: '17'
 
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
