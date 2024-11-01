@@ -7,9 +7,9 @@ name: Flutter
 
 on:
   push:
-    branches: [ "0.2.114" ]
+    branches: [ "release/0.2.114" ]
   pull_request:
-    branches: [ "0.2.114" ]
+    branches: [ "release/0.2.114" ]
 
 jobs:
   build:
