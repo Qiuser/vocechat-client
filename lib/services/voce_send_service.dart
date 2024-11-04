@@ -468,7 +468,7 @@ class VoceSendService {
       } else {
         // TODO: change to save File instead of bytes.
         final thumbBytes =
-            await FlutterImageCompress.compressWithList(fileBytes, quality: 100);
+            await FlutterImageCompress.compressWithList(fileBytes, quality: 25);
         uploadBytes = fileBytes;
         await FileHandler.singleton
             .saveImageThumb(chatId, thumbBytes, localMid, filename);
